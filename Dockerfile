@@ -9,4 +9,5 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN useradd -ms /bin/bash node
 RUN echo "node ALL=(ALL:ALL) NOPASSWD: ALL" >> /etc/sudoers
 USER node
+VOLUME ["/home/node"]
 WORKDIR /home/node
