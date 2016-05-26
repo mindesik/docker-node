@@ -2,8 +2,14 @@
 
 Image based on node:4.4.4.
 
-Features:
+# Features
 - user is `node`
 - home directory is `/home/node`
 - mount volume `/home/node`
 - latest `npm` `gulp-cli` `coffee-script`
+
+# Installation
+
+```
+docker pull misterpaladin/node
+```
