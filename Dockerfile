@@ -5,6 +5,7 @@ RUN apt-get update -y && apt-get install -y sudo
 RUN npm i -g npm
 RUN npm i -g gulp-cli
 RUN npm i -g coffee-script
+RUN npm i -g bower
 ENV DEBIAN_FRONTEND noninteractive
 RUN useradd -ms /bin/bash node
 RUN echo "node ALL=(ALL:ALL) NOPASSWD: ALL" >> /etc/sudoers
